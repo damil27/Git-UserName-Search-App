@@ -45,15 +45,4 @@ const Card = (props) => {
 
 export default Card;
 
-// class Card extends React.Component {
-//   render() {
-//     const { onImage, onName, onCompany } = this.props;
-//     return (
-//       <div>
 
-//       </div>
-//     );
-//   }
-// }
-
-// export default Card;
