@@ -17,7 +17,7 @@ const App = () => {
     console.log(val);
     const getApi = async () => {
       const resp = await axios.get(`https://api.github.com/users/${val}`);
-      setUsers([...users, resp.data]);
+      setUsers([resp.data, ...users]);
     };
     if (val != null) {
       getApi();
